@@ -1,1 +1,1 @@
-Основной код проекта 
+print("Hello World") 
