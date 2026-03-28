@@ -1,1 +1,4 @@
-Основной код проекта 
+а 
+git add main.ru
+git commit -m "╚ёяЁртыхэ т√тюф ёююс∙хэш  т main.ru"
+git push github main
