@@ -1,0 +1,18 @@
+name: Python CI 
+ 
+on: 
+  push: 
+    branches: [ dev ] 
+  pull_request: 
+    branches: [ dev ] 
+ 
+jobs: 
+  test: 
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: Checkout code 
+        uses: actions/checkout@v4 
+      - name: Python version 
+        run: python --version 
+      - name: Say Hello 
+        run: echo "Hello from GitHub Actions!" 
